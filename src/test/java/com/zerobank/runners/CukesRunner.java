@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         dryRun = false,
         strict = true,
-        tags = "@login_with_wrong_info",
+        tags = "@saving",
         plugin = {
                 "html:target/default-report",
                 "json:target/cucumber1.json",
